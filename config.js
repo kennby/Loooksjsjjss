@@ -3,8 +3,8 @@ import chalk from 'chalk'
 import { fileURLToPath } from 'url'
 
 global.owner = [
-  ['593995668111', 'Guillermo', true],
-  ['573014953662', 'Sebastian', false],
+  ['51902247905', 'kenn', true],
+  ['51902247905', 'kenxn', false],
 
 ] //Numeros de owner 
 
@@ -55,18 +55,18 @@ global.apiconversion = ["https://api.exchangerate-api.com"]
 global.conversiondocs = ["https://www.easymarkets.com/int/es/learn-centre/discover-trading/currency-acronyms-and-abbreviations/"]
 
 // Sticker WM
-global.packname = 'Kasuma-Bot'
-global.author = 'Kasuma-Bot 2.0'
-global.waig = 'Sígueme en Instagram\nhttps://www.instagram.com/traxnox/\n'
-global.wagp = 'https://chat.whatsapp.com/HvbqkYZlJzYLhczPhDteMt'
-global.wagit = 'https://github.com/ByTraxnox-X/KasumaBot-MD'
-global.wayt = 'https://youtube.com/@by_traxnox'
-global.wapyp = 'https://paypal.me/txpaying?country.x=CO&locale.x=es_XC'
+global.packname = 'ᴏɴʏx ʙᴏᴛ'
+global.author = 'ᴋᴇɴɴ'
+global.waig = 'Sígueme en Instagram\nhttps://www.instagram.com/kennxds/\n'
+global.wagp = 'https://whatsapp.com/channel/0029VaDajsjLI8YRnDjT2y1v'
+global.wagit = 'https://whatsapp.com/channel/0029VaDajsjLI8YRnDjT2y1v'
+global.wayt = 'https://whatsapp.com/channel/0029VaDajsjLI8YRnDjT2y1v'
+global.wapyp = 'https://whatsapp.com/channel/0029VaDajsjLI8YRnDjT2y1v'
 
-global.fglog = 'https://i.imgur.com/mWHCPIe.jpg'
-global.numero = ['593995668111']
-global.wait = 'Cargando'
-global.rwait = '⌛'
+global.fglog = 'https://telegra.ph/file/6085ce3b2ebf6b98df55b.jpg'
+global.numero = ['51902247905']
+global.wait = 'ɢᴀʀɢᴀɴᴅᴏ..'
+global.rwait = '👌'
 global.dmoji = '🤭'
 global.done = '✅'
 global.error = '❌'
