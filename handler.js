@@ -617,16 +617,16 @@ Para desactivar esta función, escriba
 
 global.dfail = (type, m, conn) => {
     let msg = {
-        rowner: 'Este comando solo puede ser utilizado por el *Creador del bot*',
-        owner: 'Este comando solo puede ser utilizado por el *Dueño del Bot*',
-        mods: 'Esta función es solo para  *moderadores* del Bot',
-        premium: 'Este comando es solo para miembros *Premium*',
-        group: '¡Este comando solo se puede usar en grupos!',
-        private: 'Este comando solo se puede usar en el chat *privado del Bot*',
-        admin: 'Este comando es solo para *Admins* del grupo',
-        botAdmin: '¡Para usar este comando debo ser *Administrador!*',
-        unreg: 'Regístrese para usar esta función  Escribiendo:\n\n/reg nombre.edad\n\nEjemplo: /registrarme kennx.14',
-        restrict: 'Esta característica está *deshabilitada*'
+          rowner: '👑 **Comando Exclusivo** 👑\nEste poder es solo para el *Creador del Bot* 👨‍💻',
+          owner: '🌟 **Solo para el Dueño** 🌟\nComando reservado para el *Dueño del Bot* 👨‍💻',
+          mods: '🛠️ **Función de Moderadores** 🛠️\nSolo disponible para *moderadores* del Bot 🚀',
+          premium: '✨ **Comando Premium** ✨\nExclusivo para miembros *Premium* 🌟',
+          group: '👥 **Comando Grupal** 👥\nEste comando solo se activa en grupos 👥',
+          private: '🤖 **Chat Privado** 🤖\nEste comando solo funciona en el *chat privado del Bot* 🤐',
+          admin: '👮 **Solo para Admins** 👮\nReservado para *Admins* del grupo 🌈',
+          botAdmin: '🚨 **Alerta Bot Admin** 🚨\nPara usar este comando, debo ser *Administrador* 🤖',
+          unreg: '📝 **Registro Mágico** 📝\nRegístrate con:\n`/reg nombre.edad`\nEjemplo: `/registrarme kennx.14`',
+          restrict: '🚫 **Función Inactiva** 🚫\nEsta característica está *momentáneamente desactivada* 🛑',
     }[type]
     if (msg) return m.reply(msg)
 }
