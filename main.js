@@ -120,7 +120,7 @@ const connectionOptions = {
 logger: pino({ level: 'silent' }),
 printQRInTerminal: opcion == '1' ? true : methodCodeQR ? true : false,
 mobile: MethodMobile, 
-browser: opcion == '1' ? ['KasumaBot', 'Edge', '2.0.0'] : methodCodeQR ? ['KasumaBot', 'Edge', '2.0.0'] : ['Chrome (Linux)', '', ''],
+browser: opcion == '1' ? ['onyxBot', 'Edge', '2.0.0'] : methodCodeQR ? ['onyxBot', 'Edge', '2.0.0'] : ['Chrome (Linux)', '', ''],
 auth: {
 creds: state.creds,
 keys: makeCacheableSignalKeyStore(state.keys, Pino({ level: "fatal" }).child({ level: "fatal" })),
@@ -355,5 +355,5 @@ async function _quickTest() {
 }
 
 _quickTest()
-  .then(() => conn.logger.info('iniciando Kasuma-Bot'))
+  .then(() => conn.logger.info('iniciando onyx-Bot'))
   .catch(console.error)
